@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="908" viewBox="0 0 1040 908" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="14">
+<defs><clipPath id="win"><rect width="1040" height="908" rx="12"/></clipPath><filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g clip-path="url(#win)">
+<rect width="1040" height="908" fill="#050906"/>
+<rect width="1040" height="36" fill="#050906"/>
+<circle cx="20" cy="18.0" r="6" fill="#ff5f57"/>
+<circle cx="40" cy="18.0" r="6" fill="#febc2e"/>
+<circle cx="60" cy="18.0" r="6" fill="#28c840"/>
+<text x="520.0" y="23.0" text-anchor="middle" fill="#7f9e87" font-size="13">hacker-theme — matrix.ts</text>
+<rect y="35" width="1040" height="1" fill="#16261a"/>
+<rect y="36" width="210" height="846" fill="#0b140d"/>
+<rect x="210" y="36" width="1" height="846" fill="#16261a"/>
+<text x="16" y="66" fill="#d2ead7" font-size="13">▾ hacker-theme</text>
+<text x="30" y="92" fill="#d2ead7" font-size="13">▾ src</text>
+<rect x="6" y="102" width="198" height="24" rx="4" fill="#1a3320"/>
+<text x="44" y="118" fill="#d2ead7" font-size="13">matrix.ts</text>
+<text x="44" y="144" fill="#ecd88a" font-size="13">terminal.ts</text>
+<text x="44" y="170" fill="#3ef08c" font-size="13">glitch.ts</text>
+<text x="30" y="196" fill="#d2ead7" font-size="13">▸ assets</text>
+<text x="30" y="222" fill="#7f9e87" font-size="13">extension.toml</text>
+<text x="30" y="248" fill="#7f9e87" font-size="13">README.md</text>
+<rect x="211" y="36" width="829" height="38" fill="#050906"/>
+<rect x="211" y="36" width="130" height="38" fill="#070e09"/>
+<rect x="211" y="36" width="130" height="2" fill="#3ef08c"/>
+<text x="233" y="60" fill="#d2ead7" font-size="13">matrix.ts</text>
+<text x="363" y="60" fill="#7f9e87" font-size="13">terminal.ts</text>
+<circle cx="463" cy="55" r="3" fill="#ecd88a"/>
+<rect x="211" y="73" width="829" height="1" fill="#16261a"/>
+<rect x="211" y="74" width="829" height="688" fill="#070e09"/>
+<rect x="211" y="616" width="829" height="22" fill="#0d1810"/>
+<rect x="478.6" y="618" width="84.0" height="18" rx="2" fill="#3ef08c33"/>
+<text x="255" y="104" text-anchor="end" fill="#3e5a46">1</text>
+<text y="104" fill="#d2ead7"><tspan x="277.0" textLength="243.6" lengthAdjust="spacingAndGlyphs" fill="#5a8a66" font-style="italic">// the system is listening...</tspan></text>
+<text x="255" y="126" text-anchor="end" fill="#3e5a46">2</text>
+<text y="126" fill="#d2ead7"><tspan x="277.0" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">import</tspan><tspan x="335.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">{</tspan><tspan x="352.6" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill="#78e3cf">Terminal</tspan><tspan x="428.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">}</tspan><tspan x="445.0" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">from</tspan><tspan x="487.0" textLength="100.8" lengthAdjust="spacingAndGlyphs" fill="#ecd88a">&quot;./terminal&quot;</tspan><tspan x="587.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="148" text-anchor="end" fill="#3e5a46">3</text>
+<text y="148" fill="#d2ead7"></text>
+<text x="255" y="170" text-anchor="end" fill="#3e5a46">4</text>
+<text y="170" fill="#d2ead7"><tspan x="277.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">const</tspan><tspan x="327.4" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#f5a65b">GLYPHS</tspan><tspan x="386.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">=</tspan><tspan x="403.0" textLength="109.2" lengthAdjust="spacingAndGlyphs" fill="#ecd88a">&quot;01#$%&amp;@*&lt;&gt;/&quot;</tspan><tspan x="512.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="192" text-anchor="end" fill="#3e5a46">5</text>
+<text y="192" fill="#d2ead7"><tspan x="277.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">const</tspan><tspan x="327.4" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill="#f5a65b">SPEED_MS</tspan><tspan x="403.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">=</tspan><tspan x="419.8" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill="#f5a65b">42</tspan><tspan x="436.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="214" text-anchor="end" fill="#3e5a46">6</text>
+<text y="214" fill="#d2ead7"></text>
+<text x="255" y="236" text-anchor="end" fill="#3e5a46">7</text>
+<text y="236" fill="#d2ead7"><tspan x="277.0" textLength="75.6" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">interface</tspan><tspan x="361.0" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#78e3cf">Drop</tspan><tspan x="403.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">{</tspan></text>
+<text x="255" y="258" text-anchor="end" fill="#3e5a46">8</text>
+<rect x="278.0" y="242" width="1" height="22" fill="#132016"/>
+<text y="258" fill="#d2ead7"><tspan x="293.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">x</tspan><tspan x="302.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">:</tspan><tspan x="319.0" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#78e3cf" font-style="italic">number</tspan><tspan x="369.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="280" text-anchor="end" fill="#3e5a46">9</text>
+<rect x="278.0" y="264" width="1" height="22" fill="#132016"/>
+<text y="280" fill="#d2ead7"><tspan x="293.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">y</tspan><tspan x="302.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">:</tspan><tspan x="319.0" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#78e3cf" font-style="italic">number</tspan><tspan x="369.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="302" text-anchor="end" fill="#3e5a46">10</text>
+<rect x="278.0" y="286" width="1" height="22" fill="#132016"/>
+<text y="302" fill="#d2ead7"><tspan x="293.8" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">trail</tspan><tspan x="335.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">:</tspan><tspan x="352.6" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#78e3cf" font-style="italic">string</tspan><tspan x="403.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">[</tspan><tspan x="411.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">]</tspan><tspan x="419.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="324" text-anchor="end" fill="#3e5a46">11</text>
+<text y="324" fill="#d2ead7"><tspan x="277.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">}</tspan></text>
+<text x="255" y="346" text-anchor="end" fill="#3e5a46">12</text>
+<text y="346" fill="#d2ead7"></text>
+<text x="255" y="368" text-anchor="end" fill="#3e5a46">13</text>
+<text y="368" fill="#d2ead7"><tspan x="277.0" textLength="294.0" lengthAdjust="spacingAndGlyphs" fill="#6c9c78" font-style="italic">/** Green rain, falling forever. */</tspan></text>
+<text x="255" y="390" text-anchor="end" fill="#3e5a46">14</text>
+<text y="390" fill="#d2ead7"><tspan x="277.0" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">export</tspan><tspan x="335.8" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">class</tspan><tspan x="386.2" textLength="84.0" lengthAdjust="spacingAndGlyphs" fill="#78e3cf">MatrixRain</tspan><tspan x="478.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">{</tspan></text>
+<text x="255" y="412" text-anchor="end" fill="#3e5a46">15</text>
+<rect x="278.0" y="396" width="1" height="22" fill="#132016"/>
+<text y="412" fill="#d2ead7"><tspan x="293.8" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">private</tspan><tspan x="361.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">drops</tspan><tspan x="403.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">:</tspan><tspan x="419.8" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#78e3cf">Drop</tspan><tspan x="453.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">[</tspan><tspan x="461.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">]</tspan><tspan x="478.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">=</tspan><tspan x="495.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">[</tspan><tspan x="503.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">]</tspan><tspan x="512.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="434" text-anchor="end" fill="#3e5a46">16</text>
+<text y="434" fill="#d2ead7"></text>
+<text x="255" y="456" text-anchor="end" fill="#3e5a46">17</text>
+<rect x="278.0" y="440" width="1" height="22" fill="#132016"/>
+<text y="456" fill="#d2ead7"><tspan x="293.8" textLength="92.4" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">constructor</tspan><tspan x="386.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="394.6" textLength="58.8" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">private</tspan><tspan x="461.8" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">term</tspan><tspan x="495.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">:</tspan><tspan x="512.2" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill="#78e3cf">Terminal</tspan><tspan x="579.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">,</tspan><tspan x="596.2" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">cols</tspan><tspan x="638.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">=</tspan><tspan x="655.0" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill="#f5a65b">80</tspan><tspan x="671.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="688.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">{</tspan></text>
+<text x="255" y="478" text-anchor="end" fill="#3e5a46">18</text>
+<rect x="278.0" y="462" width="1" height="22" fill="#132016"/>
+<rect x="294.8" y="462" width="1" height="22" fill="#132016"/>
+<text y="478" fill="#d2ead7"><tspan x="310.6" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">for</tspan><tspan x="344.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="352.6" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">let</tspan><tspan x="386.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">x</tspan><tspan x="403.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">=</tspan><tspan x="419.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#f5a65b">0</tspan><tspan x="428.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan><tspan x="445.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">x</tspan><tspan x="461.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">&lt;</tspan><tspan x="478.6" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">cols</tspan><tspan x="512.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan><tspan x="529.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">x</tspan><tspan x="537.4" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">++</tspan><tspan x="554.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="571.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">{</tspan></text>
+<text x="255" y="500" text-anchor="end" fill="#3e5a46">19</text>
+<rect x="278.0" y="484" width="1" height="22" fill="#132016"/>
+<rect x="294.8" y="484" width="1" height="22" fill="#132016"/>
+<rect x="311.6" y="484" width="1" height="22" fill="#132016"/>
+<text y="500" fill="#d2ead7"><tspan x="327.4" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d38cff" font-style="italic">this</tspan><tspan x="361.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="369.4" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#9fd8b0">drops</tspan><tspan x="411.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="419.8" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#c4f26e">push</tspan><tspan x="453.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="461.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">{</tspan><tspan x="478.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">x</tspan><tspan x="487.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">,</tspan><tspan x="503.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">y</tspan><tspan x="512.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">:</tspan><tspan x="529.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#f5a65b">0</tspan><tspan x="537.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">,</tspan><tspan x="554.2" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">trail</tspan><tspan x="596.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">:</tspan><tspan x="613.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">[</tspan><tspan x="621.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">]</tspan><tspan x="638.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">}</tspan><tspan x="646.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="655.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="522" text-anchor="end" fill="#3e5a46">20</text>
+<rect x="278.0" y="506" width="1" height="22" fill="#132016"/>
+<rect x="294.8" y="506" width="1" height="22" fill="#132016"/>
+<text y="522" fill="#d2ead7"><tspan x="310.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">}</tspan></text>
+<text x="255" y="544" text-anchor="end" fill="#3e5a46">21</text>
+<rect x="278.0" y="528" width="1" height="22" fill="#132016"/>
+<text y="544" fill="#d2ead7"><tspan x="293.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">}</tspan></text>
+<text x="255" y="566" text-anchor="end" fill="#3e5a46">22</text>
+<text y="566" fill="#d2ead7"></text>
+<text x="255" y="588" text-anchor="end" fill="#3e5a46">23</text>
+<rect x="278.0" y="572" width="1" height="22" fill="#132016"/>
+<text y="588" fill="#d2ead7"><tspan x="293.8" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#c4f26e">tick</tspan><tspan x="327.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="335.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="344.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">:</tspan><tspan x="361.0" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#78e3cf" font-style="italic">void</tspan><tspan x="403.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">{</tspan></text>
+<text x="255" y="610" text-anchor="end" fill="#3e5a46">24</text>
+<rect x="278.0" y="594" width="1" height="22" fill="#132016"/>
+<rect x="294.8" y="594" width="1" height="22" fill="#132016"/>
+<text y="610" fill="#d2ead7"><tspan x="310.6" textLength="25.2" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">for</tspan><tspan x="344.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="352.6" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">const</tspan><tspan x="403.0" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">drop</tspan><tspan x="445.0" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">of</tspan><tspan x="470.2" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d38cff" font-style="italic">this</tspan><tspan x="503.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="512.2" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#9fd8b0">drops</tspan><tspan x="554.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="571.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">{</tspan></text>
+<text x="255" y="632" text-anchor="end" fill="#92ffc0">25</text>
+<rect x="278.0" y="616" width="1" height="22" fill="#132016"/>
+<rect x="294.8" y="616" width="1" height="22" fill="#132016"/>
+<rect x="311.6" y="616" width="1" height="22" fill="#132016"/>
+<text y="632" fill="#d2ead7"><tspan x="327.4" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#3ef08c" font-weight="700">const</tspan><tspan x="377.8" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">ch</tspan><tspan x="403.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">=</tspan><tspan x="419.8" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#f5a65b">GLYPHS</tspan><tspan x="470.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">[</tspan><tspan x="478.6" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#78e3cf">Math</tspan><tspan x="512.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="520.6" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#c4f26e">floor</tspan><tspan x="562.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="571.0" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#78e3cf">Math</tspan><tspan x="604.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="613.0" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#c4f26e">random</tspan><tspan x="663.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="671.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="688.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">*</tspan><tspan x="705.4" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#f5a65b">GLYPHS</tspan><tspan x="755.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="764.2" textLength="50.4" lengthAdjust="spacingAndGlyphs" fill="#9fd8b0">length</tspan><tspan x="814.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="823.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">]</tspan><tspan x="831.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="654" text-anchor="end" fill="#3e5a46">26</text>
+<rect x="278.0" y="638" width="1" height="22" fill="#132016"/>
+<rect x="294.8" y="638" width="1" height="22" fill="#132016"/>
+<rect x="311.6" y="638" width="1" height="22" fill="#132016"/>
+<text y="654" fill="#d2ead7"><tspan x="327.4" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d38cff" font-style="italic">this</tspan><tspan x="361.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="369.4" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#9fd8b0">term</tspan><tspan x="403.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="411.4" textLength="42.0" lengthAdjust="spacingAndGlyphs" fill="#c4f26e">write</tspan><tspan x="453.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="461.8" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">drop</tspan><tspan x="495.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="503.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#9fd8b0">x</tspan><tspan x="512.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">,</tspan><tspan x="529.0" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">drop</tspan><tspan x="562.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="571.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#9fd8b0">y</tspan><tspan x="579.4" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">++</tspan><tspan x="596.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">,</tspan><tspan x="613.0" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill="#d2ead7">ch</tspan><tspan x="629.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">,</tspan><tspan x="646.6" textLength="159.6" lengthAdjust="spacingAndGlyphs" fill="#ecd88a">`rgb(${0}, 255, 0)`</tspan><tspan x="806.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="814.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="676" text-anchor="end" fill="#3e5a46">27</text>
+<rect x="278.0" y="660" width="1" height="22" fill="#132016"/>
+<rect x="294.8" y="660" width="1" height="22" fill="#132016"/>
+<text y="676" fill="#d2ead7"><tspan x="310.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">}</tspan></text>
+<text x="255" y="698" text-anchor="end" fill="#3e5a46">28</text>
+<rect x="278.0" y="682" width="1" height="22" fill="#132016"/>
+<rect x="294.8" y="682" width="1" height="22" fill="#132016"/>
+<text y="698" fill="#d2ead7"><tspan x="310.6" textLength="84.0" lengthAdjust="spacingAndGlyphs" fill="#c4f26e">setTimeout</tspan><tspan x="394.6" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="403.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="411.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="428.2" textLength="16.8" lengthAdjust="spacingAndGlyphs" fill="#6fbf8a">=&gt;</tspan><tspan x="453.4" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#d38cff" font-style="italic">this</tspan><tspan x="487.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">.</tspan><tspan x="495.4" textLength="33.6" lengthAdjust="spacingAndGlyphs" fill="#c4f26e">tick</tspan><tspan x="529.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">(</tspan><tspan x="537.4" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="545.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">,</tspan><tspan x="562.6" textLength="67.2" lengthAdjust="spacingAndGlyphs" fill="#f5a65b">SPEED_MS</tspan><tspan x="629.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">)</tspan><tspan x="638.2" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">;</tspan></text>
+<text x="255" y="720" text-anchor="end" fill="#3e5a46">29</text>
+<rect x="278.0" y="704" width="1" height="22" fill="#132016"/>
+<text y="720" fill="#d2ead7"><tspan x="293.8" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">}</tspan></text>
+<text x="255" y="742" text-anchor="end" fill="#3e5a46">30</text>
+<text y="742" fill="#d2ead7"><tspan x="277.0" textLength="8.4" lengthAdjust="spacingAndGlyphs" fill="#7d9a85">}</tspan></text>
+<rect x="562.6" y="619" width="2" height="16" fill="#3ef08c" filter="url(#glow)"/>
+<rect x="211" y="762" width="829" height="120" fill="#050906"/>
+<rect x="211" y="762" width="829" height="1" fill="#16261a"/>
+<text x="229" y="792" xml:space="preserve" font-size="13"><tspan fill="#5fe0d0">~/hacker-theme</tspan><tspan fill="#3a5a44"> on </tspan><tspan fill="#d38cff">main</tspan><tspan fill="#3ef08c"> ❯ </tspan><tspan fill="#d2ead7">npm run rain</tspan></text>
+<text x="229" y="814" xml:space="preserve" font-size="13"><tspan fill="#3ef08c">✓</tspan><tspan fill="#d2ead7"> compiled </tspan><tspan fill="#ecd88a">matrix.ts</tspan><tspan fill="#3a5a44"> in </tspan><tspan fill="#5fb3ff">42ms</tspan></text>
+<text x="229" y="836" xml:space="preserve" font-size="13"><tspan fill="#ecd88a">⚠</tspan><tspan fill="#ecd88a"> 1 warning: </tspan><tspan fill="#d2ead7">unused variable </tspan><tspan fill="#93f0e4">`trail`</tspan></text>
+<text x="229" y="858" xml:space="preserve" font-size="13"><tspan fill="#92ffc0">ACCESS GRANTED</tspan><tspan fill="#3ef08c"> — welcome back, operator.</tspan></text>
+<rect y="882" width="1040" height="26" fill="#050906"/>
+<rect y="882" width="1040" height="1" fill="#16261a"/>
+<text x="16" y="899" font-size="12" xml:space="preserve"><tspan fill="#3ef08c">● </tspan><tspan fill="#7f9e87">main</tspan><tspan fill="#ff5f6d">   ✕ 0</tspan><tspan fill="#f5a65b">   ⚠ 1</tspan></text>
+<text x="1024" y="899" text-anchor="end" font-size="12" xml:space="preserve" fill="#7f9e87">Ln 25, Col 35   TypeScript   Hacker Theme</text>
+</g>
+<rect x="0.5" y="0.5" width="1039" height="907" rx="12" fill="none" stroke="#16261a"/>
+</svg>

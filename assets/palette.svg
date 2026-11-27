@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1036" height="140" viewBox="0 0 1036 140" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace">
+<rect width="1036" height="140" rx="12" fill="#050906"/>
+<rect x="10" y="10" width="104" height="120" rx="8" fill="#3ef08c" stroke="#16261a"/>
+<rect x="10" y="86" width="104" height="44" fill="#0b140d" opacity="0.92"/>
+<text x="20" y="104" font-size="12" fill="#d2ead7">Phosphor</text>
+<text x="20" y="120" font-size="11" fill="#7f9e87">#3ef08c</text>
+<rect x="124" y="10" width="104" height="120" rx="8" fill="#c4f26e" stroke="#16261a"/>
+<rect x="124" y="86" width="104" height="44" fill="#0b140d" opacity="0.92"/>
+<text x="134" y="104" font-size="12" fill="#d2ead7">Lime</text>
+<text x="134" y="120" font-size="11" fill="#7f9e87">#c4f26e</text>
+<rect x="238" y="10" width="104" height="120" rx="8" fill="#78e3cf" stroke="#16261a"/>
+<rect x="238" y="86" width="104" height="44" fill="#0b140d" opacity="0.92"/>
+<text x="248" y="104" font-size="12" fill="#d2ead7">Mint</text>
+<text x="248" y="120" font-size="11" fill="#7f9e87">#78e3cf</text>
+<rect x="352" y="10" width="104" height="120" rx="8" fill="#ecd88a" stroke="#16261a"/>
+<rect x="352" y="86" width="104" height="44" fill="#0b140d" opacity="0.92"/>
+<text x="362" y="104" font-size="12" fill="#d2ead7">Amber</text>
+<text x="362" y="120" font-size="11" fill="#7f9e87">#ecd88a</text>
+<rect x="466" y="10" width="104" height="120" rx="8" fill="#f5a65b" stroke="#16261a"/>
+<rect x="466" y="86" width="104" height="44" fill="#0b140d" opacity="0.92"/>
+<text x="476" y="104" font-size="12" fill="#d2ead7">Orange</text>
+<text x="476" y="120" font-size="11" fill="#7f9e87">#f5a65b</text>
+<rect x="580" y="10" width="104" height="120" rx="8" fill="#d38cff" stroke="#16261a"/>
+<rect x="580" y="86" width="104" height="44" fill="#0b140d" opacity="0.92"/>
+<text x="590" y="104" font-size="12" fill="#d2ead7">Violet</text>
+<text x="590" y="120" font-size="11" fill="#7f9e87">#d38cff</text>
+<rect x="694" y="10" width="104" height="120" rx="8" fill="#5a8a66" stroke="#16261a"/>
+<rect x="694" y="86" width="104" height="44" fill="#0b140d" opacity="0.92"/>
+<text x="704" y="104" font-size="12" fill="#d2ead7">Comment</text>
+<text x="704" y="120" font-size="11" fill="#7f9e87">#5a8a66</text>
+<rect x="808" y="10" width="104" height="120" rx="8" fill="#d2ead7" stroke="#16261a"/>
+<rect x="808" y="86" width="104" height="44" fill="#0b140d" opacity="0.92"/>
+<text x="818" y="104" font-size="12" fill="#d2ead7">Text</text>
+<text x="818" y="120" font-size="11" fill="#7f9e87">#d2ead7</text>
+<rect x="922" y="10" width="104" height="120" rx="8" fill="#070e09" stroke="#16261a"/>
+<rect x="922" y="86" width="104" height="44" fill="#0b140d" opacity="0.92"/>
+<text x="932" y="104" font-size="12" fill="#d2ead7">Void</text>
+<text x="932" y="120" font-size="11" fill="#7f9e87">#070e09</text>
+</svg>

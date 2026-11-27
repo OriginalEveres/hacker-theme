@@ -1,0 +1,7 @@
+id = "hacker-theme"
+name = "Hacker Theme"
+version = "0.1.0"
+schema_version = 1
+authors = ["OriginalEveres"]
+description = "A phosphor-green terminal theme for Zed: deep green-black surfaces, glowing green keywords and amber strings."
+repository = "https://github.com/OriginalEveres/hacker-theme"

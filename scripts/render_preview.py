@@ -204,7 +204,7 @@ out.append("</svg>")
 (ROOT / "assets/preview.svg").write_text("\n".join(x for x in out if x) + "\n")
 
 # palette strip
-swatches = [("Phosphor", s("keyword")), ("Lime", s("function")), ("Mint", s("type")),
+swatches = [("Neon", s("keyword")), ("Acid", s("function")), ("Cyan", s("type")),
             ("Amber", s("string")), ("Orange", s("number")), ("Violet", s("variable.special")),
             ("Comment", s("comment")), ("Text", c("editor.foreground")), ("Void", c("editor.background"))]
 SW, SH, GAP = 104, 120, 10

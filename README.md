@@ -2,9 +2,9 @@
 
 # `> hacker_theme_`
 
-**A phosphor-green terminal theme for [Zed](https://zed.dev).**
-Deep green-black surfaces, glowing keywords, amber strings,
-and the late-night CRT terminal feeling.
+**A vivid neon-green theme for [Zed](https://zed.dev).**
+Pure black. Neon-green interface. Code that glows like a terminal
+in a dark room.
 
 ![Hacker Theme preview](assets/preview.svg)
 
@@ -14,15 +14,16 @@ and the late-night CRT terminal feeling.
 
 ## Why this theme?
 
-Most "hacker" themes are neon green on black, all the same shade.
-They look great in a screenshot and wear out your eyes after an hour of real work.
+Because you want your editor to look like it's breaching a mainframe, even when
+you're fixing a CSS margin.
 
-Hacker Theme keeps the mood but makes the code easy to read:
+Hacker Theme goes all in on the neon, but it's still usable for real work:
 
-- **Green means structure.** Keywords glow phosphor green, so the shape of the code stands out first.
+- **Pure black canvas.** The editor and terminal are `#000000`, so the neon really pops (and OLED screens love it).
+- **The interface glows too.** File tree, tabs, status bar and terminal text are all neon green, not just the code.
+- **Green means structure.** Keywords are bold neon, and types and classes are bold cyan.
 - **Warm colors mean data.** Strings are amber and numbers are orange, so values stand apart from logic.
-- **Comments step back.** They're dim and italic but still readable, passing WCAG AA contrast.
-- **The interface stays out of the way.** The title bar, tabs and status bar share one near-black frame, and the editor sits a shade lighter inside it.
+- **Code text stays calm.** Variables are a soft near-white, so a full screen of code doesn't burn your eyes.
 
 ## The palette
 
@@ -30,16 +31,16 @@ Hacker Theme keeps the mood but makes the code easy to read:
 
 | | Color | Used for |
 | --- | --- | --- |
-| 🟢 | `#3ef08c` **Phosphor** | keywords, tags, accents, cursor |
-| 🟡 | `#c4f26e` **Lime** | functions |
-| 🩵 | `#78e3cf` **Mint** | types, classes, attributes |
-| 🟨 | `#ecd88a` **Amber** | strings |
-| 🟠 | `#f5a65b` **Orange** | numbers, constants, booleans |
+| 🟢 | `#5dff2a` **Neon** | keywords, tags, interface text, cursor |
+| 🟡 | `#e6ff5c` **Acid** | functions |
+| 🩵 | `#4df0e0` **Cyan** | types, classes, attributes |
+| 🟨 | `#ffd966` **Amber** | strings |
+| 🟠 | `#ff9f43` **Orange** | numbers, constants, booleans |
 | 🟣 | `#d38cff` **Violet** | `this` / `self`, preprocessor directives |
-| 🌲 | `#5a8a66` **Comment** | comments |
-| ⬛ | `#070e09` **Void** | editor background |
+| 🌲 | `#4fae45` **Comment** | comments |
+| ⬛ | `#000000` **Void** | editor and terminal background |
 
-The built-in terminal gets a matching 16-color ANSI palette, so the shell looks right too.
+The built-in terminal is neon green on black with a matching 16-color ANSI palette, so your shell fits the look.
 
 ## Install
 
@@ -87,4 +88,4 @@ python3 scripts/render_preview.py
 
 ## License
 
-[MIT](LICENSE). Fork it, remix it, make it glow.
+[MIT](LICENSE). Fork it, remix it, make it glow brighter.
